@@ -47,5 +47,14 @@ may be discussed and voice can be raised against this issue.
 
    -Inputting pictures and styles: 
      [] The pictures were being inserted in the source file and we faced a problem which was taken care of by our capable members.
+     
+-Preparing style and script 
+       [] We then prepared two more files, style.css and script.js to make the website complete. No particular issues were faced in this step.
 
+-Running the website and fixing problems
+     [] After completition we run the website few times to fix and crosscheck any problems that would arrise or arose during testing.
+
+-Project completition 
+     [] After making sure the project won't face any future problems and would function just as intended we concluded the project to be complete and also left room for any future improvements.
+       
      
