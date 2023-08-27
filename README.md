@@ -33,7 +33,7 @@ may be discussed and voice can be raised against this issue.
       [] We start with planning on a project and coming up with the project name and the features it will contain.
       Our planning also contained a rough sketch of how the website should look and function.
 
-   -pening repository and linking Github:    
+   -opening repository and linking Github:    
        [] Next we opened accounts on github and prepared a repository, then linked github with visual studio code and shared access with the teammates.
 
  -Writing source code:
