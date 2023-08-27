@@ -22,6 +22,6 @@
               Profile link : https://github.com/RioRighten
 
 #Problem Statement:
-~ We will develope such a website which will be very helpful for a ngo,dealing with animal protection.
-Through this they would be able to raise voice against animal abuse by spreading social awarness,taking
-effective initiative to protect animals and also raise funds for the welfare of endangered animals.
+~ In ecosystems,animals are essential.However,they are being exposed to unnecessary suffering,agony,and cruelty,which finally
+leads to the extinction of the whole species or the death of the animals.There is no such global platform where this problem
+may be discussed and voice can be raised against this issue.
