@@ -98,64 +98,64 @@ input { width: 100%; }
 
 button { cursor: pointer; }
 
-:focus-visible { outline-offset: 4px; }
+:focus-visible { outline-offset: 6px; }
 
 ::selection { background-color: var(--white_10); }
 
 html {
   font-family: var(--ff-roboto);
   color: var(--granite-gray);
-  font-size: 50px;
+  font-size: 80px;
   scroll-behavior: smooth;
 }
 
 
 body {
   background-color: var(--white);
-  font-size: 3.6rem;
-  line-height: 2.8;
+  font-size: 6.9rem;
+  line-height: 5.9;
   overflow-x: hidden;
 }
 
   
-::-webkit-scrollbar { width: 20px; }
+::-webkit-scrollbar { width: 30px; }
 
 ::-webkit-scrollbar-track { background-color: hsl(0, 0%, 95%); }
 
 ::-webkit-scrollbar-thumb { background-color: var(--pistachio); }
 
 
-.container { padding-inline: 25px; }
+.container { padding-inline: 35px; }
 
 .section-subtitle {
   color: var(--color, var(--pistachio));
-  font-size: var(--fs, var(--fs-8));
+  font-size: var(--fs, var(--fs-30));
   font-family: var(--ff, var(--ff-roboto));
   font-weight: var(--fw-600);
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 60px;
 }
 
 .h1,
 .h2 { font-weight: var(--fw-300); }
 
 .h2,
-.h3 { line-height: 5.6; }
+.h3 { line-height: 7.9; }
 
 .h2 {
-  font-size: var(--fs-7);
+  font-size: var(--fs-11);
   color: var(--eerie-black-2);
 }
 
 .h3 {
-  font-size: var(--fs-7);
+  font-size: var(--fs-11);
   color: var(--eerie-black-2);
 }
 
 .h4 {
   color: var(--white);
-  font-size: var(--fs-7);
+  font-size: var(--fs-11);
 }
 
 .btn {
@@ -163,17 +163,17 @@ body {
   background-color: var(--btn-bg, var(--pistachio));
   color: var(--white);
   font-weight: var(--fw-600);
-  padding: 12px 32px;
+  padding: 18px 36px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   transition: var(--transition-2);
 }
 
 .btn ion-icon {
   --ionicon-stroke-width: 55px;
 
-  font-size: 1.8rem;
+  font-size: 4.9rem;
 }
 
 .btn:not(.btn-outline)::after {
@@ -249,19 +249,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 70px;
+  gap: 50px;
 }
 
 .logo {
   color: var(--white);
   font-family: var(--ff-oswald);
-  font-size: 3.2rem;
+  font-size:6.11rem;
   text-transform: uppercase;
 }
 
 .nav-open-btn {
     color: var(--white);
-    font-size: 3.8rem;
+    font-size: 6.11rem;
   }
   
   .navbar {
@@ -287,7 +287,7 @@ body {
   
   .nav-close-btn {
     color: var(--white);
-    font-size: 2.4rem;
+    font-size: 6.11rem;
     position: absolute;
     top: 15px;
     right: 15px;
@@ -296,7 +296,7 @@ body {
 .nav-close-btn ion-icon { --ionicon-stroke-width: 60px; }
 
 .navbar > .logo {
-  font-size: 4rem;
+  font-size: 6rem;
   width: max-content;
   margin-inline: auto;
   margin-block-start: 50px;
@@ -306,7 +306,7 @@ body {
   max-width: 400px;
   width: 100%;
   margin: auto;
-  padding-inline: 10px;
+  padding-inline: 13px;
   opacity: 0;
   transition: 0.5s ease;
   transition-delay: 0s;
@@ -319,13 +319,13 @@ body {
 
 .navbar-link {
   color: var(--white);
-  font-size: var(--fs-9);
+  font-size: var(--fs-11);
   font-weight: var(--fw-500);
   text-transform: uppercase;  display: flex;
   justify-content: space-between;
   align-items: center;
   padding-inline: 30px 25px;
-  padding-block: 10px;
+  padding-block: 15px;
   transition: var(--transition-1);
 }
 
@@ -343,19 +343,19 @@ body {
 .hero .section-subtitle {
   --color: var(--white);
   --ff: var(--ff-inter);
-  --fs: var(--fs-7);
+  --fs: var(--fs-9);
 
 }
 
 .hero-title {
-  font-size: var(--fs-2);
+  font-size: var(--fs-9);
   margin-block: 30px;
   line-height: 1.2;
 }
 
 .hero-text {
   font-family: var(--ff-inter);
-  font-size: var(--fs-8);
+  font-size: var(--fs-9);
   letter-spacing: -1px;
   max-width: 50ch;
   margin-block-end: 30px;
@@ -379,8 +379,8 @@ body {
 
 .features-item .item-icon {
   color: var(--pistachio);
-  font-size: 5.5rem;
-  margin-block-start: 10px;
+  font-size: 8.9rem;
+  margin-block-start: 12px;
 } 
 
 .features-item .item-icon ion-icon { --ionicon-stroke-width: 25px; }
@@ -398,11 +398,11 @@ body {
 .about-banner {
   position: relative;
   max-width: max-content;
-  margin-block-end: 30px;
+  margin-block-end: 32px;
 }
 
 .deco-title {
-  font-size: var(--fs-1);
+  font-size: var(--fs-9);
   font-weight: var(--fw-700);
   white-space: nowrap;
   line-height: 0.5;
@@ -443,7 +443,7 @@ body {
   color: var(--granite-gray);
   font-size: var(--fs-8);
   font-weight: var(--fw-500);
-  padding: 10px 32px;
+  padding: 16px 32px;
 }
 
 .tab-btn.active {
@@ -460,7 +460,7 @@ body {
 }
 
 .tab-item .item-icon {
-  font-size: 3rem;
+  font-size: 6.11rem;
   color: var(--pistachio);
 }
 
@@ -475,7 +475,7 @@ body {
   background-color: var(--pistachio);
   text-align: center;
   padding: 50px 15px;
-  margin-block-end: 30px;
+  margin-block-end: 32px;
 }
 
 .cta .section-title {
@@ -502,7 +502,7 @@ body {
 
 .service-list {
   display: grid;
-  gap: 30px;
+  gap: 32px;
 }
 
 .service-card {
@@ -519,7 +519,7 @@ body {
 
 .service-card .card-icon {
   color: var(--pistachio);
-  font-size: 7rem;
+  font-size: 6.11rem;
   max-width: max-content;
   margin-inline: auto;
 }
@@ -527,7 +527,7 @@ body {
 .service-card .card-icon ion-icon { --ionicon-stroke-width: 20px; }
 
 .service-card .card-title {
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   margin-block: 10px;
 }
 
@@ -537,9 +537,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 7px;
   color: var(--silver-chalice);
-  font-size: var(--fs-8);
+  font-size: var(--fs-9);
   font-weight: var(--fw-600);
   margin-block-start: 15px;
 }
@@ -568,8 +568,8 @@ body {
 
 .progress-text {
   display: flex;
-  gap: 5px;
-  font-size: var(--fs-8);
+  gap: 7px;
+  font-size: var(--fs-9);
 }
 
 .progress-text data {
@@ -577,25 +577,25 @@ body {
   font-weight: var(--fw-600);
 }
 
-.donate-card .card-title { --fs-5: 2.1rem; }
+.donate-card .card-title { --fs-5: 4.1rem; }
 
 .progress-box {
   background-color: var(--cultured);
-  border-radius: 20px;
-  margin-block: 10px 20px;
+  border-radius: 25px;
+  margin-block: 16px 28px;
 }
 
 
 .progress {
-  height: 6px;
-  width: 83%;
+  height: 7px;
+  width: 89%;
   background-color: var(--pistachio);
   border-radius: inherit;
 }
 
 .progress-value {
   color: var(--pistachio);
-  font-size: var(--fs-7);
+  font-size: var(--fs-9);
   font-weight: var(--fw-600);
 }
 
@@ -604,13 +604,13 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 5px;
-  margin-block: 15px;
+  gap: 8px;
+  margin-block: 19px;
 }
 
 .donate-card .card-wrapper-text {
   display: flex;
-  gap: 5px;
+  gap: 7px;
 }
 
 .donate-card .card-wrapper-text span {
@@ -629,17 +629,17 @@ body {
 
 .testi { background-color: var(--jet); }
 
-.testi-content { padding: var(--section-padding) 15px; }
+.testi-content { padding: var(--section-padding) 17px; }
 
 .testi .section-title {
   color: var(--white);
-  margin-block: 10px 40px;
+  margin-block: 26px 40px;
 }
 
 .testi-card { color: var(--white); }
 
 .testi-text,
-.testi-name { font-size: var(--fs-8); }
+.testi-name { font-size: var(--fs-9); }
 
 .testi-text,
 .testi-title { font-family: var(--ff-inter); }
@@ -678,7 +678,7 @@ body {
 
 .insta-post-link > ion-icon {
   color: var(--white);
-  font-size: 5rem;
+  font-size: 10rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -846,11 +846,11 @@ body {
   .header-action {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 70px;
   }
 
   .search-btn {
-    color: var(--white);
+    color: var(--black);
     font-size: 2.6rem;
   }
 
@@ -858,7 +858,7 @@ body {
 
 
   .hero {
-    background-image: url("../images/hero.jpg");
+    background-image: url("images/deer2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -962,7 +962,7 @@ body {
     border: none;
     color: var(--white);
     font: inherit;
-    font-size: var(--fs-8);
+    font-size: var(--fs-9);
     font-weight: var(--fw-600);
   }
 
@@ -976,11 +976,11 @@ body {
   .navbar-list {
     all: unset;
     display: flex;
-    gap: 10px;
+    gap: 15px;
   }
 
   .navbar-link {
-    font-size: var(--fs-8);
+    font-size: var(--fs-9);
     font-weight: var(--fw-600);
     text-transform: capitalize;
     transition: var(--transition-2);
@@ -1012,10 +1012,10 @@ body {
   .partner .container { justify-content: space-evenly; }
 
 
-  .insta-post-item { min-width: 20%; }
+  .insta-post-item { min-width: 25%; }
 
   .footer .container {
-    margin-inline: 30px;
+    margin-inline: 35px;
     width: auto;
   }
 
