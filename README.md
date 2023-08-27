@@ -48,7 +48,4 @@ may be discussed and voice can be raised against this issue.
    -Inputting pictures and styles: 
      [] The pictures were being inserted in the source file and we faced a problem which was taken care of by our capable members.
 
-     -Preparing style and script:  
-     [] We are currently working on two files style.css and script.js to make the website a whole. 
-The future updates will be updated on time.
- 
+     
